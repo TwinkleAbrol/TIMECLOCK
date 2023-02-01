@@ -1,0 +1,41 @@
+body {
+  background-color: blue;
+}
+
+.time {
+  display: flex;
+  align-items: baseline;
+  margin: 250px 650px 0px 650px;
+}
+.focus-container {
+  margin: 0 650px 0 650px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.focus {
+  width: 200px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+
+.focus :hover :active {
+  width: 200px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+.th {
+  font-size: 30px;
+}
+.ts {
+  font-size: 40px;
+}
+.hide {
+  display: none;
+}
+.labelfocus {
+  font-size: 20px;
+  color:blue
+}
